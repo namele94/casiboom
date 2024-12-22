@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Dimensions,
   Image,
   Platform,
   StyleSheet,
@@ -60,7 +59,7 @@ const DetailScreen = () => {
           </View>
         </View>
       </View>
-      {cartTotal && (
+      {cartTotal > 0 && (
         <View style={styles.bottomContainer}>
           <View style={styles.buttonContainer}>
             <TouchableOpacity

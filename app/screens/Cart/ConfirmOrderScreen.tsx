@@ -82,8 +82,8 @@ const styles = StyleSheet.create({
     }),
   },
   icon: {
-    width: 240,
-    height: 240,
+    width: 200,
+    height: 200,
   },
 });
 

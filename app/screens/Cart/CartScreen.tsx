@@ -29,7 +29,7 @@ const CartScreen = ({navigation}: any) => {
           ListEmptyComponent={<EmptyCartView />}
         />
 
-        {cartTotal && (
+        {cartTotal > 0 && (
           <View style={styles.bottomContainer}>
             <View style={styles.totalContainer}>
               <Text style={styles.totalText}>Всего</Text>
